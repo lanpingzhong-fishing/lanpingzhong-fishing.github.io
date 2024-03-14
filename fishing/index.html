@@ -44,18 +44,18 @@
 					}
 				});
 			})
-			$.getJSON('https://lanpingzhong-fishing.github.io/file/fishing_delete.json', function(jsonData) {
-				console.log('Received data:', jsonData);
-				var fileList = jsonData.file;
-				var contributionElement = document.querySelector('.deleted');
-				fileList.forEach(function(file) {
-				var linkElement = document.createElement('a');
-				linkElement.textContent = file.name + " deleted";
-				linkElement.href = file.path;
-				contributionElement.parentNode.insertBefore(linkElement, contributionElement);
-				contributionElement.parentNode.insertBefore(document.createElement('br'), contributionElement);
-				});
-			})
+			// $.getJSON('https://lanpingzhong-fishing.github.io/file/fishing_delete.json', function(jsonData) {
+			// 	console.log('Received data:', jsonData);
+			// 	var fileList = jsonData.file;
+			// 	var contributionElement = document.querySelector('.deleted');
+			// 	fileList.forEach(function(file) {
+			// 	var linkElement = document.createElement('a');
+			// 	linkElement.textContent = file.name + " deleted";
+			// 	linkElement.href = file.path;
+			// 	contributionElement.parentNode.insertBefore(linkElement, contributionElement);
+			// 	contributionElement.parentNode.insertBefore(document.createElement('br'), contributionElement);
+			// 	});
+			// })
 		};
 	</script>
 </body>
