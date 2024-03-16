@@ -31,6 +31,21 @@
 		},
 		{
 			"type": "a",
+			"name": "fishing0.1.2",
+			"path": "/file/fishing0.1.2.zip"
+		},
+		{
+			"type": "a",
+			"name": "fishing0.2.1",
+			"path": "/file/fishing0.2.1.zip"
+		},
+		{
+			"type": "a",
+			"name": "fishing0.2.2",
+			"path": "/file/fishing0.2.2.zip"
+		},
+		{
+			"type": "a",
 			"name": "fishx0.3.0",
 			"path": "/file/fishx0.3.0.zip"
 		},
