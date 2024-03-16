@@ -28,7 +28,7 @@ function remove_to_back(url) {
 
 function jump_back() {
 	var currentPath = window.location.pathname;
-	// console.log(remove_to_back(remove_to_back(currentPath)));
-	window.location.href = remove_to_back(remove_to_back(currentPath));
+	console.log(remove_to_back(remove_to_back(currentPath)));
+	window.location.href = '/' + remove_to_back(remove_to_back(currentPath));
 	return false;
 }
