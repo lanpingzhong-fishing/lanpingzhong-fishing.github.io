@@ -17,12 +17,12 @@
 <body>
 	<a href="/"><img class="icon" src="/file/icon.png"></a>
 	<div onclick="jump_back()"><img class="icon2" src="/file/icon.svg"></div>
-	<div style="width: 0px;height: 0px;" class="fishing"></div>
+	<div style="width: 0px;height: 0px;" class="fishing"><a onclick="a()">点击重新刷新</a></div>
 	<a href="/contribution" class="contribution">贡献榜</a>
 	<div onclick="jump()" class="jump" style="cursor: default;"></div>
 	<script src="/cssjs/a.js"></script>
 	<script>
-		window.onload = function () {
+		function a(){
 			$.getJSON('https://lanpingzhong-fishing.github.io/json/fishing.json', function (jsonData) {
 				console.log('Received data:', jsonData);
 				var fileList = jsonData.file;
@@ -41,6 +41,9 @@
 					}
 				});
 			})
+		}
+		window.onload = function () {
+			a();
 		};
 	</script>
 </body>
