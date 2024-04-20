@@ -34,6 +34,7 @@
 							var linkElement = document.createElement('a');
 							linkElement.textContent = file.name;
 							linkElement.href = file.path;
+							linkElement.download;
 							contributionElement.parentNode.insertBefore(linkElement, contributionElement);
 							contributionElement.parentNode.insertBefore(document.createElement('br'), contributionElement);
 						} else if (file.type === "h1") {
