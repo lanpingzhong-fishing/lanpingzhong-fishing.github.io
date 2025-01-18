@@ -174,6 +174,16 @@
 			"path": "/file/fishing0.3.4.zip"
 		},
 		{
+			"type": "a",
+			"name": "fishing0.3.5",
+			"path": "/file/fishing0.3.5.zip"
+		},
+		{
+			"type": "a",
+			"name": "fishing0.3.6",
+			"path": "/file/fishing0.3.6.zip"
+		},
+		{
 			"type": "h1",
 			"name": "fishing-deleted"
 		},
